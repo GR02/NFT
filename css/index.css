@@ -1,15 +1,5 @@
 
-main {background-color: #0d1a2d;}
 
-.container {width: 50vw;}
+.card {background-color: blue;}
 
-.nft {
-    opacity: 1;
-    display: block;
-    width: 300px;
-    height: 300px;
-    height: auto;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
-    margin-left: -4em;
-  }}
+.title {color: hsl(0, 100%, 50%)0000;}
