@@ -111,6 +111,7 @@
 
 @media screen and (min-width:920px) 
 {
+    /* BASE */
     .card 
     {
         width: 48vw; 
@@ -118,23 +119,33 @@
         padding-left: 35px; 
         padding-top: 25px; margin-left: 350px;
     }
-
+    /* HEADER */
     .nft 
     {
         width: 45vw;
     }
-
     .title  
     {
-        font-size: 35px;
+        font-size: 35px; 
+        padding-left: 0px;
     } 
-
+    .about-text 
+    {
+        font-size: 25px; 
+        padding-left: 0px;
+    }
+    /* MAIN */
     .price-text 
     {
         padding-right: 410px;
     }
-
-    .time-text {padding-left: 35px;}
-
-    .perfil {padding-left: 200px;}
+    .time-text 
+    {
+        padding-left: 35px;
+    }
+    /* FOOTER */
+    .perfil 
+    {
+        padding-left: 200px;
+    }
 }
