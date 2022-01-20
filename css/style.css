@@ -1,3 +1,4 @@
+/* MOBILE */
 .main 
 {
     background-color: rgb(13, 26, 45); 
@@ -101,4 +102,39 @@
     color:rgb(78, 103, 132)
 }
 
-.perfil-text a {color: rgb(255, 255, 255);}
+.perfil-text a 
+{
+    color: rgb(255, 255, 255);
+}
+
+/* DESKTOP */
+
+@media screen and (min-width:920px) 
+{
+    .card 
+    {
+        width: 48vw; 
+        align-items: flex-start; 
+        padding-left: 35px; 
+        padding-top: 25px; margin-left: 350px;
+    }
+
+    .nft 
+    {
+        width: 45vw;
+    }
+
+    .title  
+    {
+        font-size: 35px;
+    } 
+
+    .price-text 
+    {
+        padding-right: 410px;
+    }
+
+    .time-text {padding-left: 35px;}
+
+    .perfil {padding-left: 200px;}
+}
